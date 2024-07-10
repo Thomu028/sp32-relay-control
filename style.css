@@ -2,22 +2,39 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   background-color: #f0f0f0;
-}
-
-h1 {
   color: #333;
 }
 
-.button {
+h1 {
+  color: #007bff;
+  margin-top: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.relay-button {
   display: inline-block;
   margin: 10px;
   padding: 10px 20px;
   text-decoration: none;
-  color: white;
+  color: #fff;
   background-color: #007bff;
   border-radius: 5px;
+  font-size: 18px;
 }
 
-.button:hover {
+.relay-button:hover {
   background-color: #0056b3;
+}
+
+.status {
+  font-size: 20px;
+  margin-top: 20px;
 }
